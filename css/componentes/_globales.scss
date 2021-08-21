@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+$color-principal: #47cfac;
+$color-claro: #ffffff;
+$color-oscuro: black;
+$color-neutro: #e8ecf1;
+$roboto: 'Roboto', sans-serif;
+$roboto-mono: 'Roboto Mono', monospace;
+$roboto-slab: 'Roboto Slab', serif;
+
+body {
+    font-family: $roboto-mono;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.home-body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+.button-noticias {
+    width: 80px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: inherit;
+    border: 1px solid $color-principal;
+    a {
+        font-size: 12px;
+        font-weight: bold;
+        font-family: $roboto;
+    }
+}

@@ -1,0 +1,36 @@
+main {
+    height: 100vh;
+    background: url(../assets/images/cover.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .hero-container {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 200px;
+        h1 {
+            width: 700px;
+            color: $color-claro;
+            font-family: $roboto-mono;
+            text-align: center;
+            letter-spacing: 5px;
+        }
+        .hero-button {
+            height: 40px;
+            width: 120px;
+            border: 1px solid $color-claro;
+            background-color: $color-principal;
+            a {
+                color: $color-oscuro;
+                font-family: $roboto;
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+

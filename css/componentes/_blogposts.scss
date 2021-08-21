@@ -1,0 +1,24 @@
+.blogposts{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    .blogposts-container {
+        width: 85%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 1em;
+        h3 {
+            grid-column: 1/4;
+            text-align: center;
+            padding-bottom: 20px;
+            margin-bottom: 0;
+            border-bottom: 1px solid #cdd2da;
+        }
+        .blogposts-card {
+            padding: 20px;
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}

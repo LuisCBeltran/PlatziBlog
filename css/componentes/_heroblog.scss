@@ -1,0 +1,28 @@
+.noticias {
+    background-color: $color-neutro;
+    height: auto;
+    .noticia-titulo-container {
+        display: flex;
+        align-items: center;
+        width: 85%;
+        margin: 0 auto;
+        height: 60px;
+    }
+    .noticia-post-container {
+        display: flex;
+        height: 440px;
+        width: 85%;
+        margin: 0 auto;
+        .noticias-img-container {
+            width: 55%;
+            height: 90%;
+            margin-right: 40px;
+            background-image: url(../assets/images/post-2.webp);
+            background-size: cover;
+        }
+        .noticias-card {
+            width: 45%;
+            padding: 40px;
+        }
+    }
+}

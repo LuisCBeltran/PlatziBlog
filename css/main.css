@@ -1,6 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap");
 body {
+  font-family: "Roboto Mono", monospace;
   margin: 0;
   padding: 0;
+}
+
+.home-body {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -12,6 +17,20 @@ a {
   text-decoration: none;
   display: inline;
   color: black;
+}
+
+.button-noticias {
+  width: 80px;
+  height: 40px;
+  margin-top: 15px;
+  background-color: inherit;
+  border: 1px solid #47cfac;
+}
+
+.button-noticias a {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -83,10 +102,162 @@ header nav .profile-link {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-right: 50px;
+  font-family: "Roboto Slab", serif;
 }
 
 header nav .profile-link a {
   color: black;
   border-bottom: 1px solid black;
+}
+
+main {
+  height: 100vh;
+  background: url(../assets/images/cover.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+main .hero-container {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 200px;
+}
+
+main .hero-container h1 {
+  width: 700px;
+  color: #ffffff;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+main .hero-container .hero-button {
+  height: 40px;
+  width: 120px;
+  border: 1px solid #ffffff;
+  background-color: #47cfac;
+}
+
+main .hero-container .hero-button a {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.noticias {
+  background-color: #e8ecf1;
+  height: auto;
+}
+
+.noticias .noticia-titulo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  height: 60px;
+}
+
+.noticias .noticia-post-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 440px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.noticias .noticia-post-container .noticias-img-container {
+  width: 55%;
+  height: 90%;
+  margin-right: 40px;
+  background-image: url(../assets/images/post-2.webp);
+  background-size: cover;
+}
+
+.noticias .noticia-post-container .noticias-card {
+  width: 45%;
+  padding: 40px;
+}
+
+.blogposts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+}
+
+.blogposts .blogposts-container {
+  width: 85%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 1em;
+          column-gap: 1em;
+}
+
+.blogposts .blogposts-container h3 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #cdd2da;
+}
+
+.blogposts .blogposts-container .blogposts-card {
+  padding: 20px;
+}
+
+.blogposts .blogposts-container .blogposts-card img {
+  max-width: 100%;
+}
+
+.footer-green {
+  width: 100%;
+  height: 25px;
+  background-color: #47cfac;
+}
+
+.footer-black {
+  width: 100%;
+  background-color: #252525;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-black p {
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
 }
 /*# sourceMappingURL=main.css.map */
