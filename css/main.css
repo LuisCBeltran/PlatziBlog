@@ -233,6 +233,78 @@ main .hero-container .hero-button a {
   max-width: 100%;
 }
 
+.post-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.post-article img {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.post-article .post-article-container {
+  width: 80%;
+  margin: 0 auto;
+  margin: 50px auto;
+}
+
+.post-article .post-article-container h3 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.post-article .post-article-container h1 {
+  margin: 30px 0;
+}
+
+.post-article .contact {
+  background-color: #e8ecf1;
+}
+
+.post-article .contact .contact-container {
+  width: 80%;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post-article .contact .contact-container .contact-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post-article .contact .contact-container .contact-card img {
+  max-width: 90px;
+  max-height: 90px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.post-article .contact .contact-container .contact-card .contact-info {
+  display: block;
+  padding: 40px;
+}
+
+.post-article .contact .contact-container .contact-card .contact-info .contact-info-title {
+  display: inline-block;
+}
+
+.post-article .contact .contact-container .contact-card .contact-info .contact-info-title h3 {
+  width: auto;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
 .footer-green {
   width: 100%;
   height: 25px;
@@ -241,7 +313,7 @@ main .hero-container .hero-button a {
 
 .footer-black {
   width: 100%;
-  background-color: #252525;
+  background-color: #22272d;
   height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
